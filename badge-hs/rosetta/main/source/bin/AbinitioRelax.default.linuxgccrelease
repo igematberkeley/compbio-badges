@@ -1,0 +1,6 @@
+#!/bin/bash
+# Pretends to run abinitio
+
+flags=${1##@}
+
+python ~/compbio-badges/badge-hs/rosetta/main/source/.out/output.py abinitio ${flags}

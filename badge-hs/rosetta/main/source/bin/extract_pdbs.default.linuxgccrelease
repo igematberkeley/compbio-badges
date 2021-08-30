@@ -1,0 +1,4 @@
+#!/bin/bash
+# Pretends to run extract_pdbs
+
+python ~/compbio-badges/badge-hs/rosetta/main/source/.out/output.py silent ${2}

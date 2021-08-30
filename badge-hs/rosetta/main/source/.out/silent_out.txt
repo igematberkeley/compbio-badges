@@ -1,0 +1,12 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags
+core.init: Rosetta version: rosetta.binary.linux.release-264 r264 2020.37+release.3ba1aaa 3ba1aaa69637d143d3e7a0497fe9e99a2b65f1eb https://www.rosettacommons.org 2020-09-09T03:36:18.109196
+core.init: command: rosetta/main/source/bin/extract_pdbs.static.linuxgccrelease -in::file::silent trash/1elw_fold_silent.out -out:pdb -in:file:tags S_00000001
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=1507017060 seed_offset=0 real_seed=1507017060
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=1507017060 RG_type=mt19937
+core.init: Resolved executable path: /home/angelica/rosetta/main/source/build/src/release/linux/3.10/64/x86/gcc/4.8/static/extract_pdbs.static.linuxgccrelease
+core.init: Looking for database based on location of executable: /home/angelica/rosetta/main/database/
+core.io.silent.SilentFileData: Reading 1 structures from trash/1elw_fold_silent.out
+core.io.silent.SilentFileData: Finished reading 1 structures from trash/1elw_fold_silent.out
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 981 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 2.84 seconds.
+extract_pdbs: extracting Pose with tag S_00000001 into PDB file S_00000001.pdb

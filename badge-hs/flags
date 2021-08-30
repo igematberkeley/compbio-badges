@@ -1,0 +1,15 @@
+-database /home/angelica/rosetta/main/database
+-in:file:native /home/angelica/1elw.pdb
+-in:file:fasta /home/angelica/rcsb_pdb_1ELW.fasta
+-in:file:frag3 /home/angelica/aat000_03_05.200_v1_3
+-in:file:frag9 /home/angelica/aat000_09_05.200_v1_3
+-psipred_ss2 /home/angelica/t000_.psipred_ss2
+-nstruct 1
+-abinitio:relax
+-use_filters true
+-abinitio::increase_cycles 10
+-abinitio::rg_reweight 0.5
+-abinitio::rsd_wt_helix 0.5
+-abinitio::rsd_wt_loop 0.5
+-relax::fast
+-out:file:silent /home/angelica/1elw_fold_silent.out
